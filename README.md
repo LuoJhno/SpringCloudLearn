@@ -21,6 +21,7 @@
 * IDEA中创建和启动SpringBoot应用的正确姿势
 # 项目结构
 springCloudLearn
+```
 ├── eureka-server -- eureka注册中心
 ├── eureka-security-server -- 带登录认证的eureka注册中心
 ├── eureka-client -- eureka客户端
@@ -51,3 +52,4 @@ springCloudLearn
 ├── seata-order-service -- 整合了seata的订单服务
 ├── seata-storage-service -- 整合了seata的库存服务
 └── seata-account-service -- 整合了seata的账户服务
+```
