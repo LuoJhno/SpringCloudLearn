@@ -20,8 +20,8 @@
 * 使用Seata彻底解决Spring Cloud中的分布式事务问题
 * IDEA中创建和启动SpringBoot应用的正确姿势
 # 项目结构
-springCloudLearn
 ```
+SpringCloudLearn
 ├── eureka-server -- eureka注册中心
 ├── eureka-security-server -- 带登录认证的eureka注册中心
 ├── eureka-client -- eureka客户端
