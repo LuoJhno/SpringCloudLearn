@@ -1,0 +1,18 @@
+server:
+  port: 8701
+spring:
+  application:
+    name: feign-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8001/eureka/
+feign:
+  hystrix:
+    enabled: true #ÔÚFeignÖÐ¿ªÆôHystrix
+logging:
+  level:
+    com.fuzhengjun.cloud.business.service.UserService: debug
+
