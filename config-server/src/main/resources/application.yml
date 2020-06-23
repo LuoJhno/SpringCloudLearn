@@ -6,11 +6,11 @@ spring:
   cloud:
     config:
       server:
-        git: #配置存储配置信息的Git仓库
+        git:
           uri: https://github.com/fuzhengjunopen/springcloud-config.git
           username: fuzhengjunopen
           password: fuzhengjun#123321#open
-          clone-on-start: true #开启启动时直接从git获取配置
+          clone-on-start: true
 eureka:
   client:
     service-url:
